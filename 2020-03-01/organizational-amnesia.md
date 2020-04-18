@@ -260,9 +260,9 @@ should insist on writing tests first.
 
 Markdown provides a code snippet syntax:
 ```markdown
- ```bash
- echo hello
- ```
+ |```bash
+ |echo hello
+ |```
 ```
 A simple parsing tool can strip away all the explination leaving only the code. 
 Code which can be executed as part of the CI loop. If your documenation is talking 
