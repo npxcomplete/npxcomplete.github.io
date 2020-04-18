@@ -1,6 +1,7 @@
 Organizational Amnesia
 ======================
 
+<a name="citations-backlink"></a>
 I've recently seen [a few articles](#citations-footnote) spring up on hacker news around the problem 
 of organizational knowledge retention. I thought I'd take the opportunity to 
 summarize some of the better insights from the comments and add my own 2¢.
@@ -30,6 +31,7 @@ entirely while feeling like they don't, have the capacity to invest
 in properly curating their knowledge base. 
 
 The worst practice I've seen is when organizations encourage 
+<a name="irony-backlink"></a>
 [blogging*](#irony-footnote) as documentation. Blogs are not always findable,
 there may be many blogs that use the same key words making searching the knowledge
 base difficult, and blogs are often patch work in nature. A blog entry lacks the 
@@ -279,12 +281,9 @@ your CI/CD or Incident Management automation will be out dated, ignored, or forg
 
 ### Fin
 
-<a name="devops-footnote"></a>† DevOps is the act of having developers handle 
-operation for the thing they develop. It is not hiring Devs into an SRE role.
-If the people pushing features aren't the people on call you're not doing DevOps.
+<a name="irony-footnote"></a>[*](#irony-backlink) The irony that I'm saying this in a blog entry is not lost on me ;) 
 
-<a name="irony-footnote"></a>* The irony that I'm saying this in a blog entry is not lost on me ;) 
-
-<a name="citations-footnote"></a>[Ask HN: How to encourage and maintain a long term organizational knowledge base?](https://news.ycombinator.com/item?id=19098926)
+<a name="citations-footnote"></a>(Cited articles)[#citations-backlink]:
+[Ask HN: How to encourage and maintain a long term organizational knowledge base?](https://news.ycombinator.com/item?id=19098926)
 
 [Ask HN: Good ways to capture institutional knowledge?](https://news.ycombinator.com/item?id=22454333)
