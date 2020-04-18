@@ -283,7 +283,6 @@ your CI/CD or Incident Management automation will be out dated, ignored, or forg
 
 <a name="irony-footnote"></a>[*](#irony-backlink) The irony that I'm saying this in a blog entry is not lost on me ;) 
 
-<a name="citations-footnote"></a>(Cited articles)[#citations-backlink]:
-[Ask HN: How to encourage and maintain a long term organizational knowledge base?](https://news.ycombinator.com/item?id=19098926)
-
-[Ask HN: Good ways to capture institutional knowledge?](https://news.ycombinator.com/item?id=22454333)
+<a name="citations-footnote"></a>[Cited articles](#citations-backlink):
+* [Ask HN: How to encourage and maintain a long term organizational knowledge base?](https://news.ycombinator.com/item?id=19098926)
+* [Ask HN: Good ways to capture institutional knowledge?](https://news.ycombinator.com/item?id=22454333)
