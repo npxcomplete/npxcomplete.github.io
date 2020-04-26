@@ -5,8 +5,8 @@ coworker, or your weird uncle steve.
 
 Blogs
 =====
-<!-- * [Go Away Buffalo](/2020-03-01/go-away-buffalo)
-<!-- * [Organizational Amnesia](/2020-03-01/organizational-amnesia)
+* [Organizational Amnesia](/2020-03-01/organizational-amnesia)
+<!-- * [Go Away Buffalo](/2020-03-01/go-away-buffalo)  -->
 <!-- * [Why I hate VPCs](/2020-03-01/why-i-hate-vpcs) -->
 
  
