@@ -27,10 +27,14 @@ logic-clock:
 ```
 This clock outputs zero or one, alternating every tick. It will form the basis of any complex circuit brain.
 
+_________________
+
 counter:
 ```
 ```
 count till register rollover then reset.
+
+_________________
 
 slow-counter-to-N:
 ```
@@ -38,10 +42,14 @@ slow-counter-to-N:
 Count to N and reset to 0. Slow the count to rate `R` per ticks `T`.
 Note there are approximately 1_000 ticks per second.
 
+_________________
+
 counter-to-N:
 ```
 ```
 Count to the input value N, then reset to zero.
+
+_________________
 
 rs-latch:
 ```
@@ -49,10 +57,14 @@ rs-latch:
 An RS-Latch is comprised of a set and a reset condition, and a memory cell.
 Take in a signal A. If A < L, set S = 1. If A > U, set S = 0; Output S.
 
+_________________
+
 rate-limitter:
 ```
 ```
 Given an input signal `I`, an output signal `O`, and a limit signal `L`, Output active `A` if and only if `O - I < L`.
+
+_________________
 
 pulsar:
 ```
