@@ -135,7 +135,7 @@ function createLambdaVerify(url: CfnOutput): codebuild.PipelineProjectProps {
                 build: {
                     // Initial deploy will fail, requiring this import to be hidden, due to
                     // the circular dependency it creates.
-                    commands: `bash ./bin/verify # HERE # ${Fn.importValue(url.exportName!)}`,
+                    commands: `bash ./bin/verify` # HERE # ${Fn.importValue(url.exportName!)}`,
                 },
             },
             artifacts: {
@@ -149,4 +149,4 @@ function createLambdaVerify(url: CfnOutput): codebuild.PipelineProjectProps {
     };
 }
 ```
-
+After deploying the cycle-broken version from your local host, CodePipelines will automatically attempt a deploy of lambda that will fail at the verify step. You can manually trigger a redeploy of the pipeline from source in AWS console. This will reinstate the cycle and when the lambda deployment reaches verify again it should now have the URL available and pass the check.
