@@ -123,12 +123,14 @@ func main() {
 	resp, err := ppClient.InitiateCheckout(
 		&paypal.CreateOrderRequest{
 			Intent: "CAPTURE",
-			PurchaseUnits: []paypal.LineItem{{
-				Amount: paypal.CurrencyValue{
-					CurrencyCode: "AUD",
-					Value:        "100.00",
-				},
-			}},
+			PurchaseUnits: []paypal.LineItem{
+				{
+					Amount: paypal.CurrencyValue{
+						CurrencyCode: "AUD",
+						Value:        "100.00",
+					},
+				}
+			},
 		},
 	)
 
